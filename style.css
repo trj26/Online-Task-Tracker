@@ -1,0 +1,18 @@
+body {
+    font-family: Arial;
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+form, table {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+input, textarea {
+    width: 100%;
+    margin-bottom: 10px;
+}
+a {
+    margin-top: 10px;
+    display: inline-block;
+}
