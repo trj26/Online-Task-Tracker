@@ -1,0 +1,14 @@
+<%@ page contentType="text/html;charset=UTF-8" %>
+<html>
+<head><title>Assign Task</title></head>
+<body>
+    <h2>Assign Task</h2>
+    <form action="TaskServlet" method="post">
+        <label>Title:</label><input type="text" name="title"><br><br>
+        <label>Description:</label><textarea name="description"></textarea><br><br>
+        <label>Assign To:</label><input type="text" name="assignedTo"><br><br>
+        <input type="submit" value="Assign Task"><br>
+    </form>
+    <a href="viewTasks.jsp">View Tasks</a>
+</body>
+</html>
